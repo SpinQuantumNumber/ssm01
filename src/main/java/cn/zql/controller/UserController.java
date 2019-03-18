@@ -29,6 +29,7 @@ public class UserController {
         try {
             List<User> list = userService.selectUser();
             System.out.println("list=         "+list);
+            System.out.println("-----AAAAAAAAAA-------");
         } catch (Exception e) {
             System.out.println("---------------------------------------------------sql出错");
             e.printStackTrace();
